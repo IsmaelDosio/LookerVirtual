@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Locker inteligente con probador virtual | Moda sin límites</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body class="bg-white text-neutral-900 font-sans">
+
+  <!-- HEADER -->
+  <header class="flex items-center justify-between py-5 px-8 bg-white border-b border-gray-100">
+    <div class="flex items-center space-x-2">
+      <span class="inline-flex items-center justify-center w-10 h-10 bg-yellow-400 rounded-full">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7 text-neutral-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <circle cx="12" cy="12" r="10" stroke-width="2"/>
+          <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke-width="2"/>
+        </svg>
+      </span>
+      <span class="font-bold text-xl tracking-tight text-neutral-900">Locker Virtual</span>
+    </div>
+    <nav class="hidden md:flex space-x-6 font-medium text-neutral-700">
+      <a href="#como-funciona" class="hover:text-yellow-600">Cómo funciona</a>
+      <a href="#beneficios" class="hover:text-yellow-600">Beneficios</a>
+      <a href="#proceso" class="hover:text-yellow-600">Proceso</a>
+      <a href="#contacto" class="hover:text-yellow-600">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="relative flex flex-col md:flex-row items-center justify-between px-8 py-14 bg-yellow-400">
+    <div class="flex-1">
+      <h1 class="text-3xl md:text-5xl font-extrabold text-neutral-900 mb-6 leading-tight">
+        El Locker inteligente<br>
+        <span class="text-neutral-800">con probador virtual integrado</span>
+      </h1>
+      <p class="text-lg md:text-xl text-neutral-900/90 mb-8 max-w-lg font-medium">
+        Recoge tu pedido, pruébatelo en el momento y decide qué te quedas. Reduce devoluciones y ofrece una experiencia premium en moda online.
+      </p>
+      <div class="space-x-4">
+        <a href="#contacto" class="inline-block bg-neutral-900 hover:bg-neutral-800 text-white font-bold py-3 px-8 rounded-full shadow-lg transition text-lg">
+          Solicita tu demo
+        </a>
+        <a href="#como-funciona" class="inline-block font-bold text-neutral-900 hover:underline text-lg">
+          Ver cómo funciona
+        </a>
+      </div>
+    </div>
+    <!-- Imagen HERO -->
+    <div class="flex-1 flex justify-center mt-10 md:mt-0">
+      <!-- Sustituye esta imagen por la tuya -->
+      <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=500&q=80"
+           alt="Locker inteligente con probador virtual"
+           class="rounded-3xl shadow-2xl border-4 border-yellow-200 w-full max-w-xs object-cover" />
+    </div>
+  </section>
+
+  <!-- "How it works" línea de pasos -->
+  <section id="como-funciona" class="bg-white py-14 px-6">
+    <h2 class="text-2xl md:text-3xl font-bold text-neutral-900 text-center mb-12">¿Cómo funciona?</h2>
+    <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
+      <div class="flex flex-col items-center">
+        <div class="w-16 h-16 flex items-center justify-center bg-yellow-400 rounded-full mb-4">
+          <i data-lucide="shopping-bag" class="w-8 h-8 text-neutral-900"></i>
+        </div>
+        <p class="font-semibold text-neutral-900 mb-1">Compra online</p>
+        <p class="text-neutral-700 text-center text-sm">Selecciona el locker con probador virtual como punto de recogida.</p>
+      </div>
+      <div class="w-10 h-1 bg-yellow-300 rounded md:block hidden"></div>
+      <div class="flex flex-col items-center">
+        <div class="w-16 h-16 flex items-center justify-center bg-yellow-400 rounded-full mb-4">
+          <i data-lucide="package-open" class="w-8 h-8 text-neutral-900"></i>
+        </div>
+        <p class="font-semibold text-neutral-900 mb-1">Recoge y prueba</p>
+        <p class="text-neutral-700 text-center text-sm">Abre el locker, prueba tus prendas en la cabina virtual.</p>
+      </div>
+      <div class="w-10 h-1 bg-yellow-300 rounded md:block hidden"></div>
+      <div class="flex flex-col items-center">
+        <div class="w-16 h-16 flex items-center justify-center bg-yellow-400 rounded-full mb-4">
+          <i data-lucide="check-circle" class="w-8 h-8 text-neutral-900"></i>
+        </div>
+        <p class="font-semibold text-neutral-900 mb-1">Decide en el acto</p>
+        <p class="text-neutral-700 text-center text-sm">Devuelve al momento lo que no quieres, sin esperas ni trámites.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFICIOS en cuadrícula -->
+  <section id="beneficios" class="bg-white py-16 px-6">
+    <h2 class="text-2xl md:text-3xl font-bold text-neutral-900 text-center mb-12">Beneficios clave</h2>
+    <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div class="flex flex-col items-center">
+        <div class="w-14 h-14 flex items-center justify-center bg-yellow-300 rounded-full mb-4">
+          <i data-lucide="users" class="w-8 h-8 text-neutral-900"></i>
+        </div>
+        <h3 class="font-bold text-neutral-900 mb-2">Ahorra tiempo</h3>
+        <p class="text-neutral-700 text-center text-sm">Sin colas ni esperas, y todo en un solo punto.</p>
+      </div>
+      <div class="flex flex-col items-center">
+        <div class="w-14 h-14 flex items-center justify-center bg-yellow-300 rounded-full mb-4">
+          <i data-lucide="layers" class="w-8 h-8 text-neutral-900"></i>
+        </div>
+        <h3 class="font-bold text-neutral-900 mb-2">Menos devoluciones</h3>
+        <p class="text-neutral-700 text-center text-sm">Evita devoluciones impulsivas y errores de talla probando in situ.</p>
+      </div>
+      <div class="flex flex-col items-center">
+        <div class="w-14 h-14 flex items-center justify-center bg-yellow-300 rounded-full mb-4">
+          <i data-lucide="star" class="w-8 h-8 text-neutral-900"></i>
+        </div>
+        <h3 class="font-bold text-neutral-900 mb-2">Satisfacción total</h3>
+        <p class="text-neutral-700 text-center text-sm">El cliente solo se lleva lo que realmente quiere y le queda bien.</p>
+      </div>
+      <div class="flex flex-col items-center">
+        <div class="w-14 h-14 flex items-center justify-center bg-yellow-300 rounded-full mb-4">
+          <i data-lucide="activity" class="w-8 h-8 text-neutral-900"></i>
+        </div>
+        <h3 class="font-bold text-neutral-900 mb-2">Tecnología y sostenibilidad</h3>
+        <p class="text-neutral-700 text-center text-sm">Reduce envíos innecesarios y mejora la eficiencia logística.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS (fotos redondas) -->
+  <section id="testimonios" class="py-14 px-6 bg-neutral-100">
+    <h2 class="text-2xl md:text-3xl font-bold text-neutral-900 text-center mb-10">Lo que opinan los usuarios</h2>
+    <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="flex flex-col items-center">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Clienta feliz" class="w-24 h-24 rounded-full mb-4 object-cover border-4 border-yellow-400" />
+        <p class="text-neutral-700 text-center italic">"¡Me encantó poder probarme la ropa al recogerla, no tuve que devolver nada!"</p>
+        <span class="mt-2 font-bold text-neutral-900">Lucía P.</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="https://randomuser.me/api/portraits/men/42.jpg" alt="Cliente" class="w-24 h-24 rounded-full mb-4 object-cover border-4 border-yellow-400" />
+        <p class="text-neutral-700 text-center italic">"Súper práctico y rápido. Es como tener la tienda en la calle, pero sin agobios."</p>
+        <span class="mt-2 font-bold text-neutral-900">Carlos M.</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Clienta satisfecha" class="w-24 h-24 rounded-full mb-4 object-cover border-4 border-yellow-400" />
+        <p class="text-neutral-700 text-center italic">"No hay nada igual para compras online de moda. ¡Esto es el futuro!"</p>
+        <span class="mt-2 font-bold text-neutral-900">María R.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA bloques de acción -->
+  <section class="bg-yellow-400 py-12 px-6">
+    <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      <a href="#contacto" class="flex flex-col items-center p-8 bg-white rounded-2xl shadow-md hover:shadow-xl transition-all text-center">
+        <i data-lucide="map-pin" class="w-9 h-9 text-yellow-500 mb-4"></i>
+        <span class="font-bold text-lg text-neutral-900 mb-1">Busca tu locker</span>
+        <span class="text-neutral-700 text-sm">Encuentra el punto más cercano para recoger y probar tus pedidos.</span>
+      </a>
+      <a href="#beneficios" class="flex flex-col items-center p-8 bg-white rounded-2xl shadow-md hover:shadow-xl transition-all text-center">
+        <i data-lucide="shopping-bag" class="w-9 h-9 text-yellow-500 mb-4"></i>
+        <span class="font-bold text-lg text-neutral-900 mb-1">Descubre cómo funciona</span>
+        <span class="text-neutral-700 text-sm">Conoce el sistema y todos sus beneficios para tu tienda o marca.</span>
+      </a>
+      <a href="#contacto" class="flex flex-col items-center p-8 bg-white rounded-2xl shadow-md hover:shadow-xl transition-all text-center">
+        <i data-lucide="mail" class="w-9 h-9 text-yellow-500 mb-4"></i>
+        <span class="font-bold text-lg text-neutral-900 mb-1">Solicita información</span>
+        <span class="text-neutral-700 text-sm">Contacta con nosotros para una demo personalizada.</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- FORMULARIO DE CONTACTO -->
+  <section id="contacto" class="py-14 bg-white">
+    <div class="max-w-lg mx-auto px-4">
+      <div class="bg-neutral-50 rounded-3xl shadow-xl p-10 border border-yellow-100">
+        <h2 class="text-2xl md:text-3xl font-bold text-neutral-900 text-center mb-8">Solicita tu demo o más información</h2>
+        <form action="AQUI_TU_ENDPOINT" method="POST" class="flex flex-col gap-5">
+          <label class="block">
+            <span class="text-neutral-900 font-semibold">Nombre</span>
+            <input required type="text" name="nombre" class="mt-2 block w-full border-yellow-300 rounded-lg shadow-sm focus:ring-yellow-400 focus:border-yellow-400" placeholder="Tu nombre">
+          </label>
+          <label class="block">
+            <span class="text-neutral-900 font-semibold">Empresa</span>
+            <input type="text" name="empresa" class="mt-2 block w-full border-yellow-300 rounded-lg shadow-sm focus:ring-yellow-400 focus:border-yellow-400" placeholder="Nombre de tu empresa">
+          </label>
+          <label class="block">
+            <span class="text-neutral-900 font-semibold">E-mail</span>
+            <input required type="email" name="email" class="mt-2 block w-full border-yellow-300 rounded-lg shadow-sm focus:ring-yellow-400 focus:border-yellow-400" placeholder="Tu e-mail">
+          </label>
+          <label class="block">
+            <span class="text-neutral-900 font-semibold">Mensaje</span>
+            <textarea required name="mensaje" rows="4" class="mt-2 block w-full border-yellow-300 rounded-lg shadow-sm focus:ring-yellow-400 focus:border-yellow-400" placeholder="¿En qué podemos ayudarte?"></textarea>
+          </label>
+          <button type="submit" class="w-full bg-yellow-400 hover:bg-yellow-500 text-neutral-900 font-bold py-3 px-6 rounded-xl shadow-lg transition">
+            Enviar
+          </button>
+          <p class="text-xs text-center text-neutral-500 mt-2">O escríbenos a <a href="mailto:ismaellopez@gmail.com" class="underline text-neutral-900">ismaellopez@gmail.com</a></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-neutral-900 text-yellow-400 py-8 mt-10">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-2">
+      <p class="text-sm">&copy; 2025 Locker inteligente con probador virtual. Todos los derechos reservados.</p>
+      <div class="flex space-x-4">
+        <a href="mailto:ismaellopez@gmail.com" class="hover:underline">Contacto</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
